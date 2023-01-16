@@ -1,38 +1,52 @@
-User Sign Up Route (Working):
+The complete backend is created using nest js(it is framework for building efficient, scalable Node.js web applications) and mongoDB as database.
 
-![UserSignUp](https://user-images.githubusercontent.com/53406891/200187347-e6d22427-572f-4c07-a064-a1de8d786c19.jpg)
+~ Integrated Authentication of the user using login/signup feature 
 
-User/Admin Login Route (Working) :
+~ Made use of MongoDB database for storing all the user credentials and profiles.
 
-![UserLogin](https://user-images.githubusercontent.com/53406891/200187383-1bae06b4-ad20-40b9-b38b-84ba1bf082cc.jpg)
+~ Perfectly Fetching the access_token to inorder to utilise the backend api's.
 
 
-Access Token With Admin Credentials (Working) :
 
-![AccessTokenWithAdminCredentials](https://user-images.githubusercontent.com/53406891/200187431-e025d89d-436e-4987-bf49-96ad372f54af.jpg)
+Acme Login/Signup Page:
 
-Fetch All Questions (Working) :
+![Acme_Login](https://user-images.githubusercontent.com/53406891/212582371-0ba2200b-a4c7-4387-9829-57b0b40c3ddd.png)
 
-![FetchAllQuestions](https://user-images.githubusercontent.com/53406891/200187467-ae126f38-c56d-4083-a6e8-cfeca482c820.jpg)
 
-Admin Login testing with wrong credentials (Working) :
+Acme Login Page:
 
-![AdminLoginWithWrongCredentials](https://user-images.githubusercontent.com/53406891/200187506-7ed0c7f3-f474-4089-bada-7e5808bdf1be.jpg)
+![Acme_LoginBox](https://user-images.githubusercontent.com/53406891/212582420-7d7c7c1e-9ed0-4e5d-97ae-c7cd7f3faa82.png)
 
-Post Questions through Admin Route (Working) :
 
-![PostingQuestions](https://user-images.githubusercontent.com/53406891/200187547-9071bce4-e521-4f60-bce7-16870370b56e.jpg)
+Acme Signup Page:
 
- 
- DATABASE :
- 
- User Credentials DB Storing Password in hashed format:
- 
- ![MongoUserDB](https://user-images.githubusercontent.com/53406891/200187615-43f59be7-a45a-4678-8725-1c9e0bb61231.png)
- 
- Questions DB :
- 
- ![MongoQuestionDB](https://user-images.githubusercontent.com/53406891/200187668-24deaab5-3423-4ca3-a21e-f2f5515e7ee6.png)
+![Acme_SignupBox](https://user-images.githubusercontent.com/53406891/212582490-011384db-b90d-415b-aa6c-a5eb9aba1639.png)
+
+
+Acme login API Testing:
+
+![Acme_LoginUser](https://user-images.githubusercontent.com/53406891/212582567-bdba6871-7979-44c0-9274-dd6a3ef4de7c.jpg)
+
+
+Acme  signup API Tetsing:
+
+![Acme_SignupUser](https://user-images.githubusercontent.com/53406891/212582622-9b35a080-363d-4055-88f6-81ffdf22f8a3.jpg)
+
+
+Acme profile API Testing: 
+
+![Acme_ProfileCreation](https://user-images.githubusercontent.com/53406891/212582652-a8b779e9-15a6-4e0e-8915-69c2c48d3ad7.jpg)
+
+
+Acme user collection in mongoDB:
+
+![Acme_usersDB](https://user-images.githubusercontent.com/53406891/212582781-e5f1bbbc-1c8c-4bd0-be9d-da7d8a480c50.png)
+
+
+Acme profile collection in mongoDB:
+
+![Acme_ProfileDB](https://user-images.githubusercontent.com/53406891/212582819-b21a6c12-89f8-4696-88cb-1edb6e093ab6.png)
+
 
 
 
