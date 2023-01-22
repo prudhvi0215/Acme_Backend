@@ -1,0 +1,15 @@
+services:
+  - docker
+
+before-install:
+  - docker build -t prudhvidevops3099/acmifybackend .
+
+script:
+  - docker run prudhvidevops3099/acmifybackend npm start
+
+after-success:
+  #login into docker
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+
+  #push image
+  - docker push prudhvidevops3099/acmifybackend
